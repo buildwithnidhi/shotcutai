@@ -1,0 +1,55 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1748719208664,
+      "tag": "0000_daffy_mulholland_black",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1748775073224,
+      "tag": "0001_dry_lila_cheney",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1748779498299,
+      "tag": "0002_damp_power_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1748783254654,
+      "tag": "0003_tense_luke_cage",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1748786201799,
+      "tag": "0004_warm_the_fallen",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1748815274518,
+      "tag": "0005_strange_yellow_claw",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1748832943867,
+      "tag": "0006_tiresome_newton_destine",
+      "breakpoints": true
+    }
+  ]
+}
