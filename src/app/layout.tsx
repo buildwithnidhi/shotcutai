@@ -2,7 +2,6 @@ import { fonts } from "@/lib/fonts";
 import "@/styles/globals.css";
 
 import { TRPCReactProvider } from "@/trpc/react";
-import { ClerkProvider } from "@clerk/nextjs";
 import { type Metadata } from "next";
 import { Geist } from "next/font/google";
 import { NuqsAdapter } from "nuqs/adapters/next/app";
@@ -58,7 +57,7 @@ export default async function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <ClerkProvider>
+    <>
       <html lang="en" className={`${fonts.bricolageGrotesque.className}`}>
         <body>
           <PostHogProvider>
@@ -80,6 +79,6 @@ export default async function RootLayout({
           </PostHogProvider>
         </body>
       </html>
-    </ClerkProvider>
+    </>
   );
 }
